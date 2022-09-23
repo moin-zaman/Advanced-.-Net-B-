@@ -1,0 +1,129 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+    .menu ul li a {
+        text-decoration: none;
+        padding: 20px;
+        color: white;
+    }
+
+        .menu ul,li,a:hover {
+            background-color: Blue;
+        }
+
+@media screen and (max-width: 600px) {
+    .menu ul li a {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+        .menu ul li a {
+            background-color: indigo;
+            margin: 10px 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+}
+
+
+
+body {
+    background-color: rgb(241, 228, 228);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.profile-image {
+    float: left;
+    width: 100px;
+    height: 120px;
+    margin-left:200px;
+    border-radius: 50%;
+}
+
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #694f99;
+}
+
+.header-contact {
+    float: right;
+    padding-right: 50px;
+}
+
+    .header-contact a {
+        text-decoration: none;
+        color: rgb(85, 21, 206);
+        font-weight: bolder;
+    }
+
+        .header-contact a:hover {
+            text-decoration: underline;
+            color: saddlebrown;
+            cursor: crosshair;
+        }
+
+
+
+
+.left-div {
+    float: left;
+    max-width: 30%;
+    font-family: serif;
+    background-color: deepskyblue;
+}
+
+.right-div {
+    float: right;
+    width: 70%;
+    font-style: italic;
+    text-align: justify;
+}
+
+.edu-template-left {
+    float: left;
+    width: 35%;
+}
+
+.edu-template-right {
+    float: right;
+    width: 35%;
+}
+
+
+.bottom-container {
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+    .bottom-container a {
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+    }
+
+
+    .bottom-container p {
+        color: white;
+        margin-top: 20px;
+    }
+
+    .bottom-container a:hover {
+        color: rgb(190, 21, 21);
+        text-decoration: underline;
+        margin: 20px;
+        cursor: crosshair;
+    }
+
